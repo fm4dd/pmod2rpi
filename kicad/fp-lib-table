@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name project_footprints)(type KiCad)(uri "$(KIPRJMOD)/project_footprints.pretty")(options "")(descr ""))
+  (lib (name Seeeduino_XIAO)(type KiCad)(uri "D:/libs/Library KiCad/Seeeduino")(options "")(descr ""))
+)
