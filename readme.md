@@ -30,6 +30,9 @@ See also http://fpga.fm4dd.com/
 
 ### Pin Assignments
 
+Pin assigments are listed in the separate [pmod2rpi-pinout.md](pmod2rpi-pinout.md) file.
+Below are simplified schematics for the XIAO MCU-specific connectivity.
+
 #### XIAO - PMOD1:
 
 A multi-purpose double-row connector that can used as GPIO Type-1 and Type-1A, SPI Type-2 and Type-2A, or I2C Type-6 or Type-6A, depending on the pin configuration of the XIAO.
@@ -53,12 +56,14 @@ A set of XIAO pins are shared with the Raspberry Pi that can be used to establis
 
 I2C24IO PMOD demos are stored within the PMOD's repo located at [https://github.com/fm4dd/pmod-i2c24io](https://github.com/fm4dd/pmod-i2c24io).
 
-I2C24IO PMOD connected to the RPi PMOD Interface board connector PMOD1, running the "xiao-pmod1-i2c24io" example program on the Seeeduino XIAO (Cortex M0):
-
+### Board Pictures
+I2C24IO PMOD connected to the RPi PMOD Interface board connector PMOD1, running the "xiao-pmod1-i2c24io" example program on the Seeeduino XIAO (Cortex M0) in "standalone" mode:
 <img src=images/pmod2rpi-xiao-i2c24io-pmod-v10.jpg width="640px">
 
 Raspberry Pi I2C signal measurements on the PMOD2RPI board:
-
 <img src=images/pmod2rpi-osc-v10.png width="640px">
+
+Raspberry Pi operating the I2C24IO-PMOD module connected to PMOD4 on the PMOD2RPI board:
+<img src=images/pmod2rpi-pmod-i2c24io-v10.jpg width="640px">
 
 
