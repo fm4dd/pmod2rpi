@@ -50,6 +50,7 @@ A set of XIAO pins are shared with the Raspberry Pi that can be used to establis
 
 | Platform | Folder | Description |
 |----------|--------|-------------|
+|Raspberry Pi |[pi-gpiotest](examples/pi-gpiotest)   | simple GPIO test program for digital IO PMODs, such as Digilent's PMOD8LD |
 |Raspberry Pi |[pi-tca6424a](https://github.com/fm4dd/pmod-i2c24io/tree/master/examples/pi-tca6424a)   | I2C module driver 'C' program to control the I2C expander module PMOD-I2C24IO connected to PMOD4 |
 |Arduino      |[xiao-digital-io](examples/xiao-digital-io)   | Tests digital IO using the Digilent 8-Led PMOD 8LD connected to PMOD1 |
 |Arduino      |[xiao-pmod1-24iodemo](https://github.com/fm4dd/pmod-i2c24io/tree/master/examples/xiao-pmod1-24iodemo)   | Creates a lightshow demo by rotating binary patterns over the 24 IO pins, lighting up connected LEDs |
