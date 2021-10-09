@@ -6,9 +6,12 @@
 
 PMOD2RPI is a PMOD-compatible Interface Board for the Raspberry Pi B-type GPIO connector. It provides a total of four PMOD connectors to run PMOD-compatible modules on the Raspberry Pi.  This board is compatible to PMOD interface standard v1.3.1 by Digilent Inc. The PMOD (peripheral module interface) standard enables simple plug-in connectivity between FPGA or microcontroller development boards, and a range of input/output modules.
 
- <img src="images/pmod2rpi-top-v10.png" width="480px">
+This design is registered under the OSHWA Open Source Hardware Self-Certification:  
+<a href="https://certification.oshwa.org/jp000013.html"><img src="images/oshw-reg-jp000013.svg" style="width:100px; vertical-align: middle"></a>
 
  While all connectors provide digital IO, they also double as serial bus connectors for I2C and SPI modules. To aid troubleshooting, a set of Keystone miniature testpins can be fitted to create access for oscilloscope and DMM monitoring. A Seeeduino XIAO footprint has been added to additionally drive two of the four PMOD's, or to communicate with the RPi. The XIAO is optional, and can operate with the board "standalone" if needed.
+
+ <img src="images/pmod2rpi-top-v10.png" width="480px">
 
 #### I2C /SPI signal switching on PMOD1
 

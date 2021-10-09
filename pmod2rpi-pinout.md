@@ -55,6 +55,8 @@
 
 XIAO pins with alternate pins in () are controlled by the "+I2C Pin" DIP switch setting of SW3.
 
+<img src="images/pmod2rpi-schema-rpi-mod1-v10.png" width="700"/>
+
 ### PMOD2 pin assignment list
 
 #### Top Row
@@ -83,6 +85,8 @@ XIAO pins with alternate pins in () are controlled by the "+I2C Pin" DIP switch 
 
 The bottom row is not connected to any XIAO pins.
 
+<img src="images/pmod2rpi-schema-rpi-mod2-v10.png" width="700"/>
+
 ### PMOD3 pin assignment list
 
 #### Top Row
@@ -90,7 +94,7 @@ The bottom row is not connected to any XIAO pins.
 | PMOD Pin# | RPi Pin Name | RPi Alternate  | RPi Pin-# |
 |-----------|--------------|----------------|-----------|
 | 1         | GPIO16       | CTS            | 36        |
-| 2         | GPIO10       | TXD            | 8         |
+| 2         | GPIO14       | TXD            | 8         |
 | 3         | GPIO15       | RXD            | 10        |
 | 4         | GPIO17       | RTS            | 11        |
 | 5         | GND          | GND            | 6,9,14... |
@@ -107,7 +111,7 @@ The bottom row is not connected to any XIAO pins.
 | 11        | GND          | -              | 6,9,14... |
 | 12        | 3V3          | -              | 1,17      |
 
-The bottom row is not connected to any XIAO pins.
+<img src="images/pmod2rpi-schema-rpi-mod3-v10.png" width="700"/>
 
 ### PMOD4 pin assignment list
 
